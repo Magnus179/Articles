@@ -1,0 +1,13 @@
+{% extends 'temp_files/nav.html' %}
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            <h1>{{data1.title}}</h1>
+        </div>
+        <div class="card-content">
+           <p>{{data1.description}}</p>
+        <h3><a href="{% url 'home' %}">Click Here to Home</a></h3>
+        </div>
+    </div>
+
+{% endblock content %}

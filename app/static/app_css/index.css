@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue;
+    height: 300vh; 
+}
+#heading{
+    color:black;
+    text-align: center;
+}
+section{
+    width: 70%;
+    height: 200vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: skyblue;
+    justify-content: space-around;
+
+}
+article{
+    text-align: center;
+    border-radius: 15px;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+    border: 2px solid;
+    transition: transform 0.5s ease-in-out;
+}
+article:hover{
+    transform: translateY(-5px);
+    
+}
+
+p{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+h1 a {
+    color: red;
+}
